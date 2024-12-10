@@ -7,6 +7,7 @@ public static void main(String[] args)
 	int b=100;
 	if (a<b && a!=b)
 	{System.out.println("True");
+	System.out.println("true");
 	}
 
 }}

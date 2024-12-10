@@ -28,6 +28,7 @@ public class Amazon
 		new Amazon(3.14);
 		new Amazon();
 //	testing git hub check in commit
+
 		
 	}
 
