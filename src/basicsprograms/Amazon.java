@@ -27,7 +27,7 @@ public class Amazon
 		Amazon m2=new Amazon(90);
 		new Amazon(3.14);
 		new Amazon();
-	
+//	testing git hub check in commit
 		
 	}
 
