@@ -22,6 +22,7 @@ public class Math_ClassMethods
 		System.out.println(Math.abs(-5.3));
 		System.out.println(Math.abs(-5000));//abs give positive number
 		System.out.println(Math.abs(-10f));
+		System.out.println(Math.random());
 		double pivalue=Math.PI;
 		System.out.println(pivalue);
 		for (int a=1;a<=8;a++);

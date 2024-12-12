@@ -22,6 +22,7 @@ public class SupercallingStatement_ConstructorImplicitely extends Google
 	public static void main(String[] args) 
 	{
 		new SupercallingStatement_ConstructorImplicitely();
+		
 	}
 
 }
