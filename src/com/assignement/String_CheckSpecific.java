@@ -11,8 +11,8 @@ public class String_CheckSpecific
 		System.out.println(b1);
 		System.out.println(name.matches("a.(.*)"));//starts with a
 		System.out.println(name.matches("a.."));
-		System.out.println(name.matches("(.*)e"));//starts with e
-
+		System.out.println(name.matches("(.*)e"));//ends with e
+//		System.out.println(name.matches("a.(.*)"));
 		
 	}
 

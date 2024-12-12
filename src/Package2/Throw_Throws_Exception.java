@@ -7,7 +7,7 @@ public class Throw_Throws_Exception {
 		if(10<50)
 		{
 			throw new NullPointerException("Sorry the file is empty");
-			//			 cant write 2 thorw
+			//			 cant write 2 thorws
 		}
 			
 		else

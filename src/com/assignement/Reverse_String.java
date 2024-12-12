@@ -9,8 +9,8 @@ public class Reverse_String
 		
 		for (int i=input.length()-1;i>=0;i--)
 		{
-			char c1= input.charAt(i);
-			output=output+c1;
+			char c= input.charAt(i);
+			output=output+c;
 		}
 		System.out.println(output);
 

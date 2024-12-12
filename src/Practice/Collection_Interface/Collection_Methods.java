@@ -38,7 +38,7 @@ public class Collection_Methods {
 
 		Iterator i1 = c1.iterator();// it is applicable to entire collection hierarchy
 		System.out.println("Forward iteration:" );
-		while(i1.hasNext()) // don't give ;
+		while(i1.hasNext()) 
 		{
 			System.out.println(i1.next());
 		}

@@ -1,6 +1,9 @@
 package Practice.Collection_Interface;
 
-public class Anagram {
+import java.util.Arrays;
+
+public class Anagram 
+{
 
 	public static void main(String[] args) {
 		{
@@ -22,4 +25,4 @@ public class Anagram {
 				System.out.println("It is not Anagram");
 			}
 
-	}
+		}}}

@@ -26,8 +26,8 @@ public class ListInterface_Methods {
 		}
 		
 		ListIterator i2= l1.listIterator();
-		System.out.println("Forward:");// return type boolean
-		while(i2.hasNext())
+		System.out.println("Forward:");
+		while(i2.hasNext())// return type boolean
 		{
 			System.out.println(i2.next());// return type object
 		}

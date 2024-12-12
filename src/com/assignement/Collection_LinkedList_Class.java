@@ -20,8 +20,8 @@ public class Collection_LinkedList_Class
 		System.out.println(a1);
 		/*Collections.sort(a1);
 		System.out.println(a1);*/
-		ListIterator l1= a1.listIterator();
-		System.out.println(l1);
+//		ListIterator l1= a1.listIterator();
+//		System.out.println(l1);
 
 
 

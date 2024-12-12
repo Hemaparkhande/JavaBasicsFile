@@ -1,9 +1,6 @@
 package Practice.Collection_Interface;
 
-public class t1 {
-
-}
-package Interface_Prgram;//Assignment 66
+//Assignment 66
 interface one
 {   void add();
 	void mul(int a);

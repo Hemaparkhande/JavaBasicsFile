@@ -3,6 +3,7 @@ package Practice.Collection_Interface;
 import java.util.Arrays;
 
 public class Numberofalphabets {
+	static int no_of_alphabets =0;
 
 	public static void main(String[] args) 
 	{
@@ -14,10 +15,17 @@ public class Numberofalphabets {
 	
 	for(int i=0; i<s1.length(); i++ )
 	{
-		Character.isAlphabetic(i);
-		
+		boolean b1 = Character.isAlphabetic(c[i]);
+		if(b1==true)
+		{
+			no_of_alphabets++;
+		}
+	
 	}
+	System.out.println(no_of_alphabets);
+
 	}
 	
 
 }
+//program half written

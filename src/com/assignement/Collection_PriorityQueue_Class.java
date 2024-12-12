@@ -20,6 +20,8 @@ public class Collection_PriorityQueue_Class
 		a1.add(100);
 		a1.add(0);
 		
+//		a1.add(null);
+		
 		
 		System.out.println(a1);
 		

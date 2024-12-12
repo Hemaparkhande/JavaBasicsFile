@@ -11,7 +11,7 @@ public class ArrayProgram_Runtime_Scannerclass
 		{
 		Scanner s1=new Scanner(System.in);
 			int rollno []= new int[4];
-		for(int i=0;i<=3;i++)
+			for(int i=0;i<=3;i++)
 			{
 				System.out.println("Enter the value of index->>"+i);
 					rollno[i]=s1.nextInt();

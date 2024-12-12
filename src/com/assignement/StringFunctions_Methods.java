@@ -14,7 +14,7 @@ public class StringFunctions_Methods
 			System.out.println(name.equals("Hema"));
 			System.out.println(name.equalsIgnoreCase("Hema"));
 			System.out.println(name.indexOf('d'));//9
-			System.out.println(name.lastIndexOf('P'));
+			System.out.println(name.lastIndexOf('P'));// count from 1st letter
 			System.out.println(name.toString());//name itself
 			System.out.println(name.substring(3));
 			System.out.println(name.trim());
@@ -27,6 +27,8 @@ public class StringFunctions_Methods
 
 			String name1=" 2024 Hema Sandeep Parkhande";	
 			System.out.println(name1.replaceAll("[0-9]", ""));
+			System.out.println(name1.toCharArray());
+
 			
 				//full name should be there for true
 			

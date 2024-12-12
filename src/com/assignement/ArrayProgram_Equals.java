@@ -7,9 +7,9 @@ public class ArrayProgram_Equals
 	public static void main(String[] args) 
 	{
 		Scanner s1=new Scanner(System.in);		
-			int age[]=new int[5];
-			int age1[]=new int[5];
-		for(int i=0;i<=4;i++)
+			int age[]=new int[3];
+			int age1[]=new int[3];
+		for(int i=0;i<=2;i++)
 		{
 			System.out.println("Enter the value of index->>"+i);
 			age[i]= s1.nextInt();
@@ -19,7 +19,6 @@ public class ArrayProgram_Equals
 		System.out.println(Arrays.toString(age1));
 	boolean b1=	Arrays.equals(age, age1);
 	System.out.println(b1);
-
 	if(b1==true)
 	{
 		System.out.println("Arrays are equals");
@@ -28,6 +27,7 @@ public class ArrayProgram_Equals
 	{
 		System.out.println("Arrays are not equals");
 	}
-	}
 
+	
+	}
 }
